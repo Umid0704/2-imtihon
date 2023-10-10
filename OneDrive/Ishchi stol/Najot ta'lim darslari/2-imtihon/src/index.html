@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<style>
+ @font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Bold.ttf );
+ }
+ 
+ @font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-SemiBold.ttf);
+ }
+
+ @font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Medium.ttf);
+ }
+ 
+ @font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+ }
+ *{
+    font-family: Poppins;
+ }
+ 
+    
+</style>
+<body class="bg-[#1F2E35] text-white">
+    <nav class=" py-[17px] px-[32px] flex items-center justify-between xl:px-[145px]">
+        <div class="flex gap-3 items-center">
+            <img class="w-[30px]" src="../img/Group 190.svg" alt="Logo">
+            <h2 class="text-[30px] font-bold  "> Product</h2>
+        </div>
+        <div class=" hidden lg:flex items-center md:gap-3 lg:gap-[24px]">
+            <ul class="flex gap-2 text-white text-[16px] font-normal">
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Resources</a></li>
+            </ul>
+            <button class="border border-[#BCD0E5] rounded-md py-[10px] px-[24px] font-semibold">Sign in</button>
+            <button class="bg-[#02897A] rounded-md py-[10px] px-[24px] font-semibold" >Sign up</button>
+            <img src="../img/Frame.svg" alt="">
+        </div>
+       <button class="lg:hidden" > <i class="fa-solid fa-bars text-xl "></i></button>
+    </nav>
+    <div class="px-[32px] py-[50px] flex flex-col gap-4">
+        <p class="text-center text-[20px] font-semibold lg:text-[24px]">PRICING</p>
+       <div class="flex flex-col items-center" >
+        <p class="text-[25px] text-center max-w-[800px] lg:text-[40px] font-bold">Let’s get some real work done here.</p>
+        <p class=" max-w-[800px] text-center text-sm lg:text-[16px]">Prodict is your perfect solution for working. Get started now for free</p>
+       </div>
+       <div class="flex flex-wrap justify-center gap-[32px] lg:justify-between lg:px-[145px]">
+        <div class="text-center text-[#22343D] bg-white rounded-md px-[30px] py-[25px] flex flex-col gap-2 lg:px-[75px]">
+            <p class=" font-bold text-[24px] ">Free</p>
+            <p class="font-normal text-[16px]">Brief price description</p>
+            <div class=" grid grid-cols-3 grid-rows-2 ">
+                <p class="text-[#02897A] font-bold text-[70px] row-span-2"> 0</p>
+                <p class="text-[#02897A] font-bold text-[24px] text-left col-span-2 "> $</p>
+                <p class="text-gray-500 font-normal text-[16px] text-left col-span-2">Per / month</p>
+            </div>
+            <p class="text-[16px]">Only 2 Operators</p>
+            <p  class="text-[16px]">Notifications</p>
+            <p  class="text-[16px]">Landing Pages</p>
+            <button class="text-white bg-[#02897A] text-[16px] font-semibold px-[18px] py-[11px] rounded-lg">Order Now</button>
+        </div>
+        <div class="text-center text-white bg-[#02897A] rounded-md px-[30px] py-[25px] flex flex-col gap-2 lg:px-[75px]">
+            <p class=" font-bold text-[24px] ">Standard</p>
+            <p class="font-normal text-[16px]">Brief price description</p>
+            <div class=" grid grid-cols-3 grid-rows-2 ">
+                <p class=" font-bold text-[70px] row-span-2">5</p>
+                <p class=" font-bold text-[24px] text-left col-span-2 "> $</p>
+                <p class=" font-normal text-[16px] text-left col-span-2">Per / month</p>
+            </div>
+            <p class="text-[16px]">5+ Operators</p>
+            <p  class="text-[16px]">Notifications</p>
+            <p  class="text-[16px]">Landing Pages</p>
+            <button class="bg-white text-[#02897A] text-[16px] font-semibold px-[18px] py-[11px] rounded-lg">Order Now</button>
+        </div>
+        <div class="text-center text-[#22343D] bg-white rounded-md px-[30px] py-[25px] flex flex-col gap-2 lg:px-[75px]">
+            <p class=" font-bold text-[24px] ">Premium</p>
+            <p class="font-normal text-[16px]">Brief price description</p>
+            <div class=" grid grid-cols-3 grid-rows-2 ">
+                <p class="text-[#02897A] font-bold text-[70px] row-span-2"> 10</p>
+                <p class="text-[#02897A] font-bold text-[24px] text-left col-span-2 "> $</p>
+                <p class="text-gray-500 font-normal text-[16px] text-left col-span-2">Per / month</p>
+            </div>
+            <p class="text-[16px]">Only 3 Operators</p>
+            <p  class="text-[16px]">Notifications</p>
+            <p  class="text-[16px]">Landing Pages</p>
+            <button class="text-white bg-[#02897A] text-[16px] font-semibold px-[18px] py-[11px] rounded-lg">Order Now</button>
+        </div>
+
+       </div>
+
+    </div>
+    <div class="bg-[#22343D] text-white loading-7 text-center py-[51px] flex flex-col gap-[16px]">
+        <p class="text-[24px] font-semibold">ENTERPRISE</p>
+        <p class="text-[34px] font-bold">Are you interested  in a custom-tailored plan?</p>
+        <p class="text-[18px] font-normal">Product is a set of advanced features for really large teams with projects.</p>
+        <div>
+        <button class="text-[18px] font-semibold text-white bg-[#02897A] px-[18px] py-[11px] rounded-lg">Get in touch with us</button>
+
+        </div>
+    </div>
+   
+    <div class="py-[100px]  box-border">
+       <p class="text-[30px] lg:text-[34px] font-bold text-center w-screen ">Product is being used with great effects alongside:</p>  
+    <div class="lg:flex gap-4 lg:px-[100px]">
+        <div class="flex justify-center">
+            <img class="lg:hidden" src="../img/Image.svg" alt="Image">
+            <img class="hidden lg:block" src="../img/amico.svg" alt="image">
+         </div>
+        <div class="flex gap-4 flex-col   box-border  justify-between">
+            <div>
+
+                <div class="flex gap-2">
+                    <img src="../img/Feature Icon with circle.svg" alt="Image">
+                    <span class="text-[24px] font-semibold">Enterpreneur</span>
+                </div>
+                <p class="text-[16px] font-normal leading-[28px]">Product is a great way to help medium and samall enterprise owners achieve their goals</p>
+               </div>
+               <div class="">
+                <div class="flex gap-2 ">
+                    <img src="../img/04.svg" alt="Image">
+                    <span class="text-[24px] font-semibold">Accountants</span>
+                </div>
+                <p class="text-[16px] font-normal leading-[28px]">Whether you are working on contract with clients, or on other key accounting documents, Product is for you</p>
+               </div>
+               <div>
+                <div class="flex gap-2">
+                    <img src="../img/05.svg" alt="Image">
+                    <span class="text-[24px] font-semibold">Universities</span>
+                </div>
+                <p class="text-[16px] font-normal leading-[28px]">Organize university projects and have documents easily graded online with Product</p>
+               </div>
+    </div>
+       
+    </div>
+    </div>
+    <div class="py-[50px] px-[32px] lg:px-[240px]">
+        <p class="text-[30px] font-bold leading-[48px] text-center">Frequently asked question</p>
+        <p class="text-[18px] font-normal leading-[27px]">Something is not clear? You need help? Check our FAQ section</p>
+       <div class="flex">
+        <img src="../img/plus_circle.svg" alt=""><p class="text-[18px] font-medium leading-[27px] "> What are my payment option?</p>
+    </div>
+    <div class="w-full border "></div>  
+    <div class="flex">
+        <img src="../img/minus_circle.svg" alt=""><p class="text-[18px] font-medium leading-[27px] "> How can I invite collaborator to platform?</p>
+    </div>
+    <p>After creating your account you will have an oppurtunity to create your first project that will be associated withthe collaborators e-mail. An invitation  will be sent automatically. Then, invited user will have to confirm his account by e-mail and finish userd onboarding.</p>
+  <div class="w-full border "></div>  
+  <div class="flex">
+    <img src="../img/plus_circle.svg" alt=""><p class="text-[18px] font-medium leading-[27px] ">Can I upgrade my plan?</p>
+</div>
+<div class="w-full border "></div>  
+<div class="flex">
+    <img src="../img/plus_circle.svg" alt=""><p class="text-[18px] font-medium leading-[27px] ">Can I cancel my plan at anytime?</p>
+</div>
+<div class="w-full border "></div>  
+
+    </div>
+</body>
+</html>
